@@ -1,6 +1,6 @@
 package herencia;
 
-public class Main {
+public class Herencia {
     public static void main(String[] args) {
         Vehiculo[] vehiculos = new Vehiculo[3];
         vehiculos[0] = new Carro("Mazda", "3", 190, 4);

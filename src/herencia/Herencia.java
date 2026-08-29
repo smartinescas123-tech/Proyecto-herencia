@@ -7,6 +7,12 @@ public class Main {
         vehiculos[1] = new Moto("Yamaha", "MT-03", 170, false);
         vehiculos[2] = new Camion("Kenworth", "T800", 120, 25.5);
 
-
+ for (Vehiculo v : vehiculos) {
+            v.mostrarInfo();
+            v.acelerar();
+            v.frenar();
+            System.out.println("-------------------------");
+        }
     }
 }
+       

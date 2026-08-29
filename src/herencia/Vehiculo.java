@@ -10,16 +10,13 @@ public class Vehiculo {
         this.modelo = modelo;
         this.velocidadMaxima = velocidadMaxima;
     }
-
     public void acelerar() {
-        System.out.println(marca + " " + modelo + " está acelerando.");
+        System.out.println(marca + " " + modelo + " esta acelerando.");
     }
-
     public void frenar() {
-        System.out.println(marca + " " + modelo + " está frenando.");
+        System.out.println(marca + " " + modelo + " esta frenando.");
     }
-
     public void mostrarInfo() {
-        System.out.println("Marca: " + marca + " | Modelo: " + modelo + " | Vel. máx: " + velocidadMaxima + " km/h");
+        System.out.println("Marca: " + marca + " | Modelo: " + modelo + " | Vel. max: " + velocidadMaxima + " km/h");
     }
 }

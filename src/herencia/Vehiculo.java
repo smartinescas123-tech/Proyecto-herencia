@@ -17,6 +17,6 @@ public class Vehiculo {
         System.out.println(marca + " " + modelo + " esta frenando.");
     }
     public void mostrarInfo() {
-        System.out.println("Marca: " + marca + " | Modelo: " + modelo + " | Vel. max: " + velocidadMaxima + " km/h");
+        System.out.println("Marca " + marca + " | Modelo " + modelo + " | Vel. max " + velocidadMaxima + " km/h");
     }
 }

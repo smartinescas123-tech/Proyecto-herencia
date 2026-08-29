@@ -1,16 +1,15 @@
 package herencia;
 
-public class Carro{
-    private Vehiculo vehiculo;
+public class Carro extends Vehiculo {
     private int numeroPuertas;
 
     public Carro(String marca, String modelo, double velocidadMaxima, int numeroPuertas) {
-        this.vehiculo = new Vehiculo(marca, modelo, velocidadMaxima);
+        super(marca, modelo, velocidadMaxima);
         this.numeroPuertas = numeroPuertas;
     }
 
     public void mostrarInfo() {
-        vehiculo.mostrarInfo();
+        super.mostrarInfo();
         System.out.println("Numero de puertas: " + numeroPuertas);
     }
 }
